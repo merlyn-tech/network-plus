@@ -4,6 +4,7 @@
 - A network is a *group or system of interconnected people or things.*
 
 **LAN**: Local Area Network
+
 **Workgroup**: A set of devices that are physically are in the same network segment. Split LANs into logical zones called "workgroups".
 
 Business Environment: Better to arrange LAN's workgroups along department divisions.
