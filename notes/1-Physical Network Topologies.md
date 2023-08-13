@@ -54,3 +54,40 @@ Has a lot in common with the bus topology, because if you want to add to the net
 ### **Mesh Topology**
 
 ![](./mesh-topology.png)
+
+There's a path from every machine, to every other machine.
+
+for *n* number of hosts, you end up with *n*(*n*-1)/2 connections.
+
+- 4 computers: 6 connections
+- 10 computers: 45 connections!
+
+Therefore only small networks can really use this topology.
+
+Good fault tolerance.
+
+Can instead of creating this "full-mesh" topology, create a **partial mesh topology** instead. May lose a little fault tolerance (not all devices will be interconnected, so choose wisely).
+
+### **Point-to-Point Topology**
+
+![](./point-to-point-topology.png)
+
+Direct connection between routers/switches. Single communications path.
+
+Lightning bolt = WAN link.
+
+Also, a link froma computer to a hub/switch is also a valid P2P connection.
+
+### **Point-to-Multipoint Topology**
+
+![](./point-to-multipoint-topology.png)
+
+A succession of connections between an interface on one router, and multiple destination routers / one to multiple connections.
+
+### Hybrid Topology
+
+A combination of two+ physical / logical network topologies working together within the same network.
+
+**Example**: a LAN hub in a star topology configuration, that connects to its hosts via a bus topology.
+
+![](hybrid-topology.png)
